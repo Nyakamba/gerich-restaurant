@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 const Navbar = () => (
   <nav className="app__navbar">
-    <div className="app__navabar-logo">
+    <div className="app__navbar-logo">
       <img src={images.gericht} alt="app logo" />
     </div>
     <ul className="app__navbar-links">
@@ -26,6 +26,16 @@ const Navbar = () => (
         <a href="#contact">Contact</a>
       </li>
     </ul>
+    <div className="app__navbar-login">
+      <a href="#login" className="p__opensans">
+        Log In / Register
+      </a>
+      <div>
+        <a href="/" className="P__opensans">
+          Book Table
+        </a>
+      </div>
+    </div>
   </nav>
 );
 
