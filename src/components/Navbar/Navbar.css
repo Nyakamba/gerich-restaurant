@@ -56,3 +56,7 @@
   height: 30px;
   background-color: var(--color-grey);
 }
+
+.app__navbar-smallscreen {
+  display: none;
+}
