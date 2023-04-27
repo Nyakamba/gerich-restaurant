@@ -22,7 +22,7 @@ const AboutUs = () => (
           aliquet eu proin mauris et.
         </p>
 
-        <button type="button" className="cutsom__button">
+        <button type="button" className="custom__button">
           Know More
         </button>
       </div>
@@ -40,7 +40,7 @@ const AboutUs = () => (
           odio nec aliquet.
         </p>
 
-        <button type="button" className="cutsom__button">
+        <button type="button" className="custom__button">
           Know More
         </button>
       </div>
