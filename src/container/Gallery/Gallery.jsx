@@ -25,7 +25,7 @@ const Gallery = () => {
     images.gallery01,
     images.gallery02,
     images.gallery03,
-    images.allery04,
+    images.gallery04,
   ];
 
   return (
@@ -42,7 +42,7 @@ const Gallery = () => {
         </button>
       </div>
 
-      <div className="app__gallery_images">
+      <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
           {galleryImages.map((image, index) => (
             <div
@@ -55,7 +55,7 @@ const Gallery = () => {
           ))}
         </div>
 
-        <div className="app_-gallery-images_arrow">
+        <div className="app__gallery-images_arrows">
           <BsArrowLeftShort
             className="gallery__arrow-icon"
             onClick={() => scroll("left")}
